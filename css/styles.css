@@ -1,0 +1,7 @@
+p.paddedText{
+  padding: 0px 15px 15px 15px !important;
+}
+
+div.fixHeight{
+  min-height: 350px !important;
+}
