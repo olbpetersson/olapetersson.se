@@ -4,4 +4,5 @@ p.paddedText{
 
 div.fixHeight{
   min-height: 350px !important;
+  background: #f3f3f3
 }
