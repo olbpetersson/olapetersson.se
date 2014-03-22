@@ -1,8 +1,24 @@
 p.paddedText{
   padding: 0px 15px 15px 15px !important;
 }
-
-div.fixHeight{
-  min-height: 400px !important;
-  background: #f3f3f3
+@media (min-width: 768px) {
+  div.fixHeight{
+    min-height: 275px !important;
+    background: #f3f3f3;
+  }
 }
+
+@media (min-width: 992px) {
+  div.fixHeight{
+    min-height: 385px !important;
+    background: #f3f3f3;
+  }
+}
+
+@media (min-width: 1200px) {
+  div.fixHeight{
+    min-height: 325px !important;
+    background: #f3f3f3;
+  }
+}
+
