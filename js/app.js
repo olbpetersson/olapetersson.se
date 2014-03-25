@@ -1,4 +1,4 @@
-angular.module("app", [
+var app = angular.module("app", [
     "ui.router"
   ])
 .config(["$urlRouterProvider", "$stateProvider", function($urlRouterProvider, $stateProvider){
@@ -18,6 +18,7 @@ angular.module("app", [
       templateUrl: "/templates/projects.html"
     })
     .state("blog",{
+      controller: "BlogController",
       url: "/blog",
       templateUrl: "/templates/blog.html"
     })
@@ -27,3 +28,7 @@ angular.module("app", [
     })
 
 }])
+
+app.controller("BlogController", function($scope){
+    $scope.title = parseTumblr();
+})
