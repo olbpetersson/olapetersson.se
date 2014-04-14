@@ -1,7 +1,49 @@
 <div class="container fadeIn"> 
-  <div class="jumbotron">
-          <h2>Career</h2>
-          <br>
-          Under construction
+	<div class="jumbotron">
+        
+        <h2>Career</h2>
+        <br>
+        <p>
+          Below you can see the specificis regarding my education and my
+          employments. Tap or click on a heading to see more details about the specific topics.
+          
+          {{title}}
+        </p>
+	</div>
+  <div class="container"  ng-controller="CareerController">
+	  <div class="row">
+	    <div class ="col-md-4 col-lg-4 col-sm-6 col-xs-6">
+	      <div class="panel panel-default fixHeight">
+	               <h3 style="padding-left: 15px;"><a href="" ng-click="open('templates/education.html')">Education</a></h3>
+	                <p class="paddedText">
+	                  Chalmers Univiersity
+	                </p>
+	      </div>
+	    </div>
+	    <div class ="col-md-4 col-lg-4 col-sm-6 col-xs-6">  
+	      <div class="panel panel-default fixHeight">
+	        <h3 style="padding-left: 15px;"><a href="" ng-click="open('templates/employments.html')">Employments</a></h3>
+	          <p class="paddedText">
+	           	Squeed AB
+	           	<br>
+	           	Systemite
+	           	<br>
+	           	Woody Bygghandel
+	           	<br>
+	           	Beijer Byggmaterial
+	          </p>
+	      </div>
+	    </div>
+	    <div class ="col-md-4 col-lg-4 col-sm-6 col-xs-6">
+	      <div class="panel panel-default fixHeight">
+	         <h3 style="padding-left: 15px;"><a>Curriculum Vitae</a></h3>
+	          <p class="paddedText">
+	          	<br>
+	          	<br>
+	            <a href="files/cv_hemsida.pdf"><img src="../files/pdficon.jpg" height="40" width="40"></a>
+	          </p>
+	      </div>
+	    </div>
+	  </div>  
   </div>
 </div>

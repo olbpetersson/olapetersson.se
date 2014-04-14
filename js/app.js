@@ -1,6 +1,5 @@
 var app = angular.module("app", [
-    "ui.router"
-  ])
+    "ui.router", "ui.bootstrap"])
 .config(["$urlRouterProvider", "$stateProvider", function($urlRouterProvider, $stateProvider){
   $urlRouterProvider.otherwise('/');
 
@@ -10,6 +9,7 @@ var app = angular.module("app", [
       templateUrl: "/home.html"
     })
     .state("career",{
+      controller: 'CareerController',
       url: "/career",
       templateUrl: "/templates/career.html"
     })
@@ -18,7 +18,7 @@ var app = angular.module("app", [
       templateUrl: "/templates/projects.html"
     })
     .state("blog",{
-      controller: "BlogController",
+      controller: "ParseCtrl",
       url: "/blog",
       templateUrl: "/templates/blog.html"
     })
@@ -27,8 +27,6 @@ var app = angular.module("app", [
       templateUrl: "/templates/contact.html"
     })
 
-}])
 
-app.controller("BlogController", function($scope){
-    $scope.title = parseTumblr();
-})
+}]);
+
