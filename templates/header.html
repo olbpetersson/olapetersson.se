@@ -8,16 +8,19 @@
         </button>
     <div class="collapse navbar-collapse navHeaderCollapse">
           <ul class="nav navbar-nav navbar-right">
-          <li ui-sref-active="active">
+          <li ui-sref-active="active" data-toggle="collapse" data-target=".navHeaderCollapse">
             <a ui-sref="home">Home</a>
           </li>
-          <li ui-sref-active="active">
+          <li ui-sref-active="active" data-toggle="collapse" data-target=".navHeaderCollapse">
             <a ui-sref="career">Career</a>
           </li>
           <li ui-sref-active="active">
-            <a ui-sref="projects">Projects</a>
+            <a ui-sref="projects" data-toggle="collapse" data-target=".navHeaderCollapse">Projects</a>
           </li>
-          <li ui-sref-active="active">
+           <li ui-sref-active="active" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <a ui-sref="blog">Blog</a>
+          </li>
+          <li ui-sref-active="active" data-toggle="collapse" data-target=".navHeaderCollapse">
             <a ui-sref="contact">Contact</a>
           </li>
           </ul>

@@ -2,40 +2,54 @@
 	<div class="jumbotron">
         
         <h2>Career</h2>
-        <br>
         <p>
-          Below you can see the specificis regarding my education and my
-          employments. Tap or click on a heading to see more details about the specific topics.
-          
-          {{title}}
+          Below you can see the specificis regarding my education, earlier
+          employments and my Master Thesis. You can also find my resumé (CV) which is a more formal and concise presentation of my whole career.
+          <br>
+          <br>
+          Tap or click on a heading to see more details about the specific topics.
+        
         </p>
 	</div>
   <div class="container"  ng-controller="CareerController">
 	  <div class="row">
-	    <div class ="col-md-4 col-lg-4 col-sm-6 col-xs-6">
-	      <div class="panel panel-default fixHeight">
+	    <div class ="col-md-3 col-lg-3 col-sm-6 col-xs-6">
+	      <div class="panel panel-default fixHeightDeeper">
 	               <h3 style="padding-left: 15px;"><a href="" ng-click="open('templates/education.html')">Education</a></h3>
 	                <p class="paddedText">
-	                  Chalmers Univiersity
+	                  I've spent many years in school trying to soak in knowledge from whomever passed me by.
+	                  <br>
+	                  <br>
+	                  My biggest achievment is my Masters in Software Engineering but even before that I took an interest in techinical stuf. In high-school I coded some C++, Java and html/php but it wasn't until I started at Chalmers and with Java and later on Android that I got a tiny clue about what I was doing. Click on the heading to read a more about my education.
 	                </p>
 	      </div>
 	    </div>
-	    <div class ="col-md-4 col-lg-4 col-sm-6 col-xs-6">  
-	      <div class="panel panel-default fixHeight">
+	    <div class ="col-md-3 col-lg-3 col-sm-6 col-xs-6">  
+	      <div class="panel panel-default fixHeightDeeper">
 	        <h3 style="padding-left: 15px;"><a href="" ng-click="open('templates/employments.html')">Employments</a></h3>
 	          <p class="paddedText">
-	           	Squeed AB
-	           	<br>
-	           	Systemite
-	           	<br>
-	           	Woody Bygghandel
-	           	<br>
-	           	Beijer Byggmaterial
+		      	At the age of thirteen I started to make my own money by cleaning a warehouse at the weekends.
+		      	<br>
+		      	<br>
+		      	Since then I have always had a job, either at the weekends or during the summers. This section presents all my employees throughout the years, although it is only the most recent ones that are related to my profession as a software engineer.     
 	          </p>
 	      </div>
 	    </div>
-	    <div class ="col-md-4 col-lg-4 col-sm-6 col-xs-6">
-	      <div class="panel panel-default fixHeight">
+	    <div class ="col-md-3 col-lg-3 col-sm-6 col-xs-6">  
+	      <div class="panel panel-default fixHeightDeeper">
+	        <h3 style="padding-left: 15px;"><a href="" ng-click="open('templates/masterThesis.html')">Master Thesis</a></h3>
+	          <p class="paddedText">
+		      	I concluded my master thesis in 2013 where I, together with Viktor Mellgren, developed a lightweight annotation system for requirement databases. Much focus lied within Android's capability of voice recognition which allowed us to query very large databases with the speech as input method.
+		      	<br>
+		      	<br>
+		      	If you are interested you can find a 
+		      	shorter version in an article shape <a href="">here</a> or you can tap the heading and get the
+		      	full report.
+	          </p>
+	      </div>
+	    </div>
+	    <div class ="col-md-3 col-lg-3 col-sm-6 col-xs-6">
+	      <div class="panel panel-default fixHeightDeeper">
 	         <h3 style="padding-left: 15px;"><a>Curriculum Vitae</a></h3>
 	          <p class="paddedText">
 	          	<br>
