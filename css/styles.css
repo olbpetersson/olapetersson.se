@@ -24,14 +24,14 @@ p.paddedText{
 
 @media (min-width: 768px) {
   div.fixHeightDeeper{
-    min-height: 275px !important;
+    min-height: 350px !important;
     background: #f3f3f3;
   }
 }
 
 @media (min-width: 992px) {
   div.fixHeightDeeper{
-    min-height: 385px !important;
+    min-height: 525px !important;
     background: #f3f3f3;
   }
 }
